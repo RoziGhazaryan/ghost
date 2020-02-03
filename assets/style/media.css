@@ -1,0 +1,281 @@
+@media (max-height: 600px) {
+
+    /*==================================header-style-start=======================================*/
+    header {
+        height: auto;
+    }
+
+    /*==================================header-style-start=======================================*/
+
+}
+
+@media (max-width: 1199.98px) {
+
+    /*==================================header-style-start=======================================*/
+    .header-form-big {
+        margin-top: 50px;
+    }
+
+    /*==================================header-style-end=======================================*/
+    /*==================================featured-works-style-start=======================================*/
+    .know-more {
+        width: auto;
+    }
+
+    /*==================================featured-works-style-end=======================================*/
+    /*==================================services-we-provide-style-start=======================================*/
+    .services {
+        align-items: flex-start;
+    }
+
+    .services-text {
+        margin-left: 80px;
+    }
+
+    /*==================================services-we-provide-style-end=======================================*/
+
+}
+
+@media (max-width: 991.98px) {
+
+    /*==================================header-style-start=======================================*/
+    .menu-btn {
+        display: block;
+    }
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 9999999;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        opacity: 0.7;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay-content ul {
+        flex-direction: column;
+    }
+
+    .overlay-content ul li:before {
+        display: none;
+    }
+
+    .overlay-content ul li:hover a {
+        color: #ff2929;
+    }
+
+    .overlay-content ul li a {
+        font-size: 30px;
+        padding: 8px;
+    }
+
+    /*==================================header-style-end=======================================*/
+    /*==================================work-process-style-start=======================================*/
+    .process-list {
+        margin: -15px;
+    }
+
+    .process-block-big {
+        width: 50%;
+        padding: 15px;
+    }
+
+    /*==================================work-process-style-end=======================================*/
+    /*==================================featured-works-style-start=======================================*/
+    .work-process-cnt, .featured-works-cnt, .services-we-provide-cnt, .team-skills-cnt, .clients-said-cnt {
+        padding: 80px 0 100px;
+    }
+
+    .work-process-cnt .title, .featured-works-cnt .title {
+        margin-bottom: 60px;
+    }
+
+    .works-block-big {
+        width: 50%;
+    }
+
+    .works-block-big:last-child {
+        margin: auto;
+    }
+
+    /*==================================featured-works-style-end=======================================*/
+    /*==================================services-we-provide-style-start=======================================*/
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*==================================services-we-provide-style-end=======================================*/
+    /*==================================team-skills-style-start=======================================*/
+    .team {
+        height: 390px;
+    }
+
+    .member {
+        margin-top: 60px;
+    }
+
+    .member-name-position h3 {
+        font-size: 25px;
+    }
+
+    .member-name-position p {
+        font-size: 15px;
+    }
+
+    /*==================================team-skills-style-end=======================================*/
+    /*==================================clients-said-style-start=======================================*/
+    .clients-said-block {
+        padding-top: 60px;
+    }
+
+    /*==================================clients-said-style-end=======================================*/
+
+}
+
+@media (max-width: 767.98px) {
+
+    /*==================================header-style-start=======================================*/
+    .title h1 {
+        font-size: 40px;
+    }
+
+    .header-form-big {
+        justify-content: center;
+    }
+
+    .form-button {
+        width: 100%;
+    }
+
+    /*==================================header-style-end=======================================*/
+    /*==================================featured-works-style-start=======================================*/
+    .works-block {
+        height: 245px;
+    }
+
+    /*==================================featured-works-style-end=======================================*/
+    /*==================================team-skills-style-start=======================================*/
+    .team-big {
+        width: 50%;
+    }
+
+    .team-big:last-child {
+        margin: auto;
+    }
+
+    /*==================================team-skills-style-end=======================================*/
+    .works-block
+
+}
+
+@media (max-width: 575.98px) {
+
+    /*==================================header-style-start=======================================*/
+    .title {
+        margin-top: 10px;
+    }
+
+    .title h1 {
+        font-size: 22px;
+    }
+
+    .header-form {
+        max-width: none;
+    }
+
+    /*==================================header-style-end=======================================*/
+    /*==================================work-process-style-start=======================================*/
+    .work-process-cnt, .featured-works-cnt, .services-we-provide-cnt, .team-skills-cnt, .clients-said-cnt {
+        padding: 30px 0 30px;
+    }
+
+    .work-process-cnt .title, .featured-works-cnt .title, .services-we-provide-cnt .title, .team-skills-cnt .title, .clients-said-cnt .title {
+        margin-bottom: 30px;
+    }
+
+    .process-list {
+        margin: -5px;
+    }
+
+    .process-block-big {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .process-block-big + .process-block-big {
+        margin-top: 30px;
+    }
+
+    /*==================================work-process-style-end=======================================*/
+    /*==================================featured-works-style-start=======================================*/
+    .works-block-big {
+        width: 100%;
+    }
+
+    /*==================================featured-works-style-end=======================================*/
+    /*==================================services-we-provide-style-start=======================================*/
+    .service-image {
+        width: 90px;
+        height: 78px;
+    }
+
+    .services-text {
+        margin-left: 10px;
+    }
+
+    .service-name h4 {
+        font-size: 25px;
+    }
+
+    .service-description p {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .watch {
+        max-width: 247px;
+        height: 277px;
+    }
+
+    /*==================================services-we-provide-style-end=======================================*/
+    /*==================================team-skills-style-start=======================================*/
+    .team-big, .team {
+        width: 100%;
+    }
+
+    .skill-name p {
+        font-size: 14.83px;
+    }
+
+    /*==================================team-skills-style-end=======================================*/
+    /*==================================footer-start=======================================*/
+    .contact-icons-copyright {
+        flex-direction: column;
+    }
+
+    .contact-icons {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .copyright p {
+        font-size: 15px;
+    }
+
+    /*==================================footer-start=======================================*/
+}
+
+

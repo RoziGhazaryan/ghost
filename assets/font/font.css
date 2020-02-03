@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'OpenSans-reg';
+    src: url("OpenSans/OpenSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-semibold';
+    src: url("OpenSans/OpenSans-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-light';
+    src: url("OpenSans/OpenSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Myriad-Pro";
+    src: url("MyriadPro/MYRIADPRO-REGULAR.OTF") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("SourceSansPro/SourceSansPro-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansProSemibold";
+    src: url("SourceSansPro/SourceSansPro-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansProItalic";
+    src: url("SourceSansPro/SourceSansPro-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'CenturyGothic';
+    src : url("GOTHIC.TTF");
+}
+
+@font-face {
+    font-family: 'BabasNeueBook';
+    src : url("BebasNeue-Book.ttf");
+}
+
+@font-face {
+    font-family: 'MonserratRegular';
+    src : url("Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'MonserratBold';
+    src : url("Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'MonserratSemiBold';
+    src : url("Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'MonserratExtraBold';
+    src : url("Montserrat-ExtraBold.ttf");
+}

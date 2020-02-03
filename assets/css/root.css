@@ -1,0 +1,11 @@
+:root {
+    --transition-all: 0.3s;
+    --text-color-black: black;
+    --text-color-red: rgb(183, 17, 53);
+    --bg-color: rgb(183, 17, 53);
+}
+
+@media only screen and (min-width: 1366px) {
+    :root {
+    }
+}
